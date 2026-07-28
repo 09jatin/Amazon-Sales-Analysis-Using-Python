@@ -1,122 +1,316 @@
-# 📊 Retail Sales Analysis using Python
+# 🛒 Amazon Sales Analysis using Python
 
-## 📌 Project Overview
+<p align="center">
 
-This project presents an end-to-end retail sales analysis using Python, transforming raw sales data into actionable business insights through data cleaning, feature engineering, exploratory data analysis (EDA), and visualization.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-The objective is to identify sales trends, customer purchasing behavior, product performance, and regional business opportunities to support data-driven decision-making.
-
----
-
-## 🎯 Business Objectives
-
-- Analyze overall sales and profit performance
-- Understand customer purchasing patterns
-- Identify top-performing products and categories
-- Evaluate regional sales performance
-- Discover seasonal sales trends
-- Generate business recommendations from data
+</p>
 
 ---
 
-## 🛠️ Tools & Technologies
+# 📖 Project Overview
 
-- Python
+This project presents an end-to-end **Amazon Sales Analysis** using Python. The objective is to transform raw sales data into meaningful business insights through data cleaning, feature engineering, exploratory data analysis (EDA), and data visualization.
+
+The analysis identifies revenue trends, profit performance, customer purchasing behavior, product performance, shipping efficiency, and regional sales patterns to support data-driven business decisions.
+
+---
+
+# 🎯 Business Problem
+
+Amazon processes thousands of customer transactions across different products and regions. Without proper analysis, it becomes difficult to identify sales trends, profitable products, customer behavior, and regional performance.
+
+This project answers important business questions such as:
+
+- Which products generate the highest revenue?
+- Which products generate the highest profit?
+- Which states and cities contribute the most revenue?
+- What are the seasonal sales trends?
+- How does shipping performance affect customer orders?
+- Which business strategies can improve revenue and profitability?
+
+---
+
+# 📂 Dataset
+
+| Attribute | Value |
+|-----------|--------|
+| Domain | Retail / E-Commerce |
+| Dataset | Amazon Sales Dataset |
+| Format | CSV |
+| Analysis Tool | Python |
+| Visualization | Matplotlib & Seaborn |
+
+---
+
+# 🛠️ Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| Python | Data Analysis |
+| Pandas | Data Cleaning & Manipulation |
+| NumPy | Numerical Computing |
+| Matplotlib | Data Visualization |
+| Seaborn | Statistical Visualization |
+| Jupyter Notebook | Development Environment |
+
+---
+
+# ⭐ Key Features
+
+- Data Cleaning
+- Data Quality Assessment
+- Missing Value Analysis
+- Duplicate Record Detection
+- Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Revenue Analysis
+- Profit Analysis
+- Product Performance Analysis
+- Customer Behavior Analysis
+- Shipping Analysis
+- Regional Sales Analysis
+- Business Insights
+- Strategic Recommendations
+
+---
+
+# 🔄 Project Workflow
+
+1. Import Libraries
+2. Load Dataset
+3. Data Inspection
+4. Data Cleaning
+5. Data Quality Checks
+6. Feature Engineering
+7. Exploratory Data Analysis
+8. Data Visualization
+9. Business Insights
+10. Business Recommendations
+11. Executive Summary
+
+---
+
+# 📊 Exploratory Data Analysis
+
+The project includes detailed analysis of:
+
+- Revenue Distribution
+- Profit Distribution
+- Quantity Distribution
+- Revenue by Category
+- Profit by Category
+- Shipping Speed Analysis
+- Monthly Revenue Trend
+- Yearly Revenue Trend
+- Revenue by Season
+- Weekday vs Weekend Sales
+- Sales Category Analysis
+- Profit Status Analysis
+- Profit Margin Distribution
+- Revenue vs Profit
+- Quantity vs Revenue
+- Top Revenue Products
+- Top Profit Products
+- Lowest Revenue Products
+- Customer Purchase Analysis
+- Average Revenue per Product
+- State-wise Revenue
+- State-wise Profit
+- City-wise Revenue
+- State-wise Orders
+
+---
+
+# 📈 Visualizations & Business Insights
+
+### Revenue Distribution
+
+![Revenue Distribution](Images/revenue_distribution.png)
+
+**Insight**
+
+Most customer orders generate relatively low revenue, while a small number of transactions contribute significantly higher sales.
+
+**Recommendation**
+
+Focus marketing efforts on premium products to increase average order value.
+
+---
+
+### Profit Distribution
+
+![Profit Distribution](Images/profit_distribution.png)
+
+**Insight**
+
+Most transactions are profitable, while only a small percentage generate low or negative profit.
+
+**Recommendation**
+
+Review pricing and supplier costs for low-profit products.
+
+---
+
+### Monthly Revenue Trend
+
+![Monthly Revenue](Images/monthly_revenue.png)
+
+**Insight**
+
+Revenue peaks during **November and December**, indicating strong seasonal demand.
+
+**Recommendation**
+
+Increase inventory and promotional campaigns before the holiday season.
+
+---
+
+### Revenue by Category
+
+![Revenue by Category](Images/category_revenue.png)
+
+**Insight**
+
+The **Chairs** category contributes the highest overall revenue.
+
+**Recommendation**
+
+Maintain sufficient inventory and prioritize marketing for high-performing categories.
+
+---
+
+### Top Revenue Products
+
+![Top Products](Images/top_products.png)
+
+**Insight**
+
+Canon Camera products generate the highest revenue among all products.
+
+**Recommendation**
+
+Increase inventory and feature these products in promotional campaigns.
+
+---
+
+### Top States by Revenue
+
+![Top States](Images/top_states.png)
+
+**Insight**
+
+California contributes the highest overall revenue.
+
+**Recommendation**
+
+Continue investing in marketing and customer retention initiatives in California.
+
+---
+
+# 💡 Executive Summary
+
+## Key Insights
+
+- Sales showed consistent year-over-year growth.
+- November and December recorded the highest revenue.
+- Most customers purchased between 2 and 6 products per order.
+- Medium Shipping was the most frequently used shipping option.
+- Chairs generated the highest revenue among product categories.
+- Copiers generated the highest overall profit.
+- Canon Camera products generated the highest revenue.
+- Canon imageCLASS Copier generated the highest profit.
+- California contributed the highest revenue, profit, and customer orders.
+- Los Angeles generated the highest city-level revenue.
+- Higher revenue generally correlated with higher profit.
+
+---
+
+# 📌 Business Recommendations
+
+- Increase inventory before seasonal demand peaks.
+- Focus marketing on high-performing products and categories.
+- Improve pricing strategies for low-profit products.
+- Strengthen customer retention programs.
+- Promote premium products with high average revenue.
+- Launch weekend promotional campaigns to improve weekend sales.
+- Optimize shipping performance to improve customer satisfaction.
+- Invest more resources in high-performing states and cities.
+
+---
+
+# 🐍 Python Skills Demonstrated
+
+### Libraries
+
 - Pandas
 - NumPy
 - Matplotlib
-- Jupyter Notebook
+- Seaborn
+
+### Skills
+
+- Data Cleaning
+- Data Validation
+- Missing Value Handling
+- Duplicate Detection
+- Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Statistical Analysis
+- Data Aggregation
+- Data Visualization
+- Business Insight Generation
 
 ---
 
-## 📂 Dataset Features
+# 📂 Project Structure
 
-The dataset contains retail transaction data including:
+```text
+Amazon-Sales-Analysis/
 
-- Orders
-- Products
-- Categories
-- Customers
-- Revenue
-- Profit
-- Quantity
-- Shipping Details
-- Geographic Information
-- Order & Delivery Dates
-
----
-
-## ⚙️ Project Workflow
-
-1. Data Import
-2. Data Inspection
-3. Data Cleaning
-4. Feature Engineering
-5. Exploratory Data Analysis (EDA)
-6. Business Questions
-7. Data Visualization
-8. Business Insights & Recommendations
+│
+├── Dataset/
+│
+├── Notebook/
+│
+├── Images/
+│
+├── README.md
+│
+└── LICENSE
+```
 
 ---
 
-## 📈 Key Analysis Performed
+# 🚀 Future Improvements
 
-- Revenue Analysis
-- Profit Analysis
-- Customer Purchase Behavior
-- Product Performance
-- Category Analysis
-- Geographic Analysis
-- Shipping Analysis
-- Monthly & Yearly Sales Trends
-- Seasonal Performance
-- Customer Order Analysis
+- Build an interactive Power BI dashboard.
+- Develop a sales forecasting model using Machine Learning.
+- Implement customer segmentation techniques.
+- Create an automated reporting pipeline.
+- Deploy the project as an interactive web application.
 
 ---
 
-## 🔑 Key Insights
-
-- Sales showed consistent year-over-year growth, with November and December recording the highest sales.
-- Customers typically purchased 2–6 items per order and preferred Medium shipping.
-- Copiers was the most profitable category, while Canon imageCLASS Copier generated the highest revenue.
-- California led in revenue, profit, and order volume, with Los Angeles being the highest-performing city.
-- Most orders were profitable, indicating strong overall business performance.
-
----
-
-## 💡 Business Recommendations
-
-- Prioritize inventory and marketing for top-performing products and regions.
-- Launch promotional campaigns before peak sales periods.
-- Encourage higher order values through bundles and loyalty programs.
-- Improve the performance of low-revenue products through pricing and promotional strategies.
-
----
-
-## 📷 Project Preview
-
-### Monthly Revenue Trend
-![Monthly Revenue Trend](Images/Monthly_Sales_Trend.png)
-
-### Revenue by State
-![Revenue by State](Images/Revenue_by_State.png)
-
-### Revenue vs Profit
-![Revenue vs Profit](Images/Revenue_vs_Profit.png)
-
-### Top 10 Products by Profit
-![Top 10 Products by Profit](Images/Top_10_Products_by_Profit.png)
-
-### Executive Summary
-![Executive Summary](Images/Executive_Summary.png)
-
-## 📬 Contact
+# 👨‍💻 Author
 
 **Jatin Patidar**
 
-- LinkedIn: https://linkedin.com/in/jatinpatidar09
-- GitHub: https://github.com/09jatin
+Aspiring Data Analyst
+
+- 📧 Email: Your Email
+- 💼 LinkedIn: Your LinkedIn Profile
+- 🐙 GitHub: https://github.com/09jatin
 
 ---
 
-⭐ If you found this project useful, consider giving it a star.
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+Feedback and suggestions are always welcome.
