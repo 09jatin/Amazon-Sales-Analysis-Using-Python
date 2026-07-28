@@ -131,7 +131,7 @@ The project includes detailed analysis of:
 
 ### 🌍 Revenue by State
 
-![Revenue by State](Images/revenue_by_state.png)
+![Revenue by State](Images/Revenue_by_State.png)
 
 **Insight**
 
