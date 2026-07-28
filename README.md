@@ -129,90 +129,72 @@ The project includes detailed analysis of:
 
 # 📈 Visualizations & Business Insights
 
-### Revenue Distribution
+### 🌍 Revenue by State
 
-![Revenue Distribution](Images/revenue_distribution.png)
-
-**Insight**
-
-Most customer orders generate relatively low revenue, while a small number of transactions contribute significantly higher sales.
-
-**Recommendation**
-
-Focus marketing efforts on premium products to increase average order value.
-
----
-
-### Profit Distribution
-
-![Profit Distribution](Images/profit_distribution.png)
+![Revenue by State](Images/revenue_by_state.png)
 
 **Insight**
 
-Most transactions are profitable, while only a small percentage generate low or negative profit.
+California generated the highest revenue among all states, highlighting it as the strongest regional market. A few states contributed a significant share of total sales, while many states generated comparatively lower revenue.
 
 **Recommendation**
 
-Review pricing and supplier costs for low-profit products.
+Prioritize marketing campaigns, inventory planning, and customer retention initiatives in high-performing states while developing targeted growth strategies for underperforming regions.
 
 ---
 
-### Monthly Revenue Trend
+### 📊 Revenue vs Profit Analysis
 
-![Monthly Revenue](Images/Monthly_Sales_Trend.png)
+![Revenue vs Profit](Images/revenue_vs_profit.png)
 
 **Insight**
 
-Revenue peaks during **November and December**, indicating strong seasonal demand.
+Revenue and profit show a positive relationship, indicating that higher sales generally lead to higher profitability. However, some high-revenue transactions delivered relatively lower profit, suggesting margin differences across products.
 
 **Recommendation**
 
-Increase inventory and promotional campaigns before the holiday season.
+Focus on increasing sales of high-margin products and review pricing strategies for products with strong revenue but weaker profitability.
 
 ---
 
-### Revenue by Category
+### 🏆 Top 10 Products by Profit
 
-![Revenue by Category](Images/category_revenue.png)
+![Top 10 Products by Profit](Images/top_10_products_profit.png)
 
 **Insight**
 
-The **Chairs** category contributes the highest overall revenue.
+A small group of products generated a substantial portion of total profit. These products consistently outperformed others and played a major role in overall business profitability.
 
 **Recommendation**
 
-Maintain sufficient inventory and prioritize marketing for high-performing categories.
+Maintain sufficient inventory, increase promotional efforts, and prioritize these high-profit products to maximize business returns.
 
 ---
 
-### Top Revenue Products
+### 📅 Monthly Sales Trend
 
-![Top Products](Images/top_products.png)
+![Monthly Sales Trend](Images/monthly_sales.png)
 
 **Insight**
 
-Canon Camera products generate the highest revenue among all products.
+Monthly sales followed a clear seasonal pattern, with revenue increasing toward the end of the year. November and December recorded the strongest sales performance.
 
 **Recommendation**
 
-Increase inventory and feature these products in promotional campaigns.
+Prepare inventory, staffing, and marketing campaigns ahead of the peak shopping season to fully capitalize on increased customer demand.
 
 ---
 
-### Top States by Revenue
+# 💡 Executive Summary
 
-![Top States](Images/top_states.png)
-
-**Insight**
-
-California contributes the highest overall revenue.
-
-**Recommendation**
-
-Continue investing in marketing and customer retention initiatives in California.
-
----
-
+- Analyzed retail sales data using Python, Pandas, NumPy, Matplotlib, and Seaborn.
+- Performed data cleaning, preprocessing, and exploratory data analysis (EDA).
+- Identified California as the highest revenue-generating state.
+- Observed a strong positive relationship between revenue and profit.
+- Determined the top 10 most profitable products contributing significantly to overall profit.
+- Identified seasonal sales trends, with peak performance during November and December.
+- Generated business insights to support inventory optimization, marketing strategies, and revenue growth.
+- Delivered data-driven recommendations to improve profitability and support informed business decision-making.
 # 💡 Executive Summary
 
 ## Key Insights
