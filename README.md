@@ -145,7 +145,7 @@ Prioritize marketing campaigns, inventory planning, and customer retention initi
 
 ### 📊 Revenue vs Profit Analysis
 
-![Revenue vs Profit](Images/revenue_vs_profit.png)
+![Revenue vs Profit](Images/Revenue_vs_Profit.png)
 
 **Insight**
 
@@ -159,7 +159,7 @@ Focus on increasing sales of high-margin products and review pricing strategies 
 
 ### 🏆 Top 10 Products by Profit
 
-![Top 10 Products by Profit](Images/top_10_products_profit.png)
+![Top 10 Products by Profit](Images/Top_10_Products_by_Profit.png)
 
 **Insight**
 
