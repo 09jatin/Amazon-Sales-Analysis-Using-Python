@@ -303,8 +303,8 @@ Amazon-Sales-Analysis/
 
 Aspiring Data Analyst
 
-- 📧 Email: Your Email
-- 💼 LinkedIn: Your LinkedIn Profile
+- 📧 Email: jatinpatidar606@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/jatinpatidar09/
 - 🐙 GitHub: https://github.com/09jatin
 
 ---
