@@ -159,7 +159,7 @@ Review pricing and supplier costs for low-profit products.
 
 ### Monthly Revenue Trend
 
-![Monthly Revenue](Images/monthly_revenue.png)
+![Monthly Revenue](Images/Monthly_Sales_Trend.png)
 
 **Insight**
 
