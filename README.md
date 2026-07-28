@@ -173,7 +173,7 @@ Maintain sufficient inventory, increase promotional efforts, and prioritize thes
 
 ### 📅 Monthly Sales Trend
 
-![Monthly Sales Trend](Images/monthly_sales.png)
+![Monthly Sales Trend](Images/Monthly_Sales_Trend.png)
 
 **Insight**
 
