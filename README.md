@@ -258,13 +258,13 @@ Amazon-Sales-Analysis/
 │
 ├── Dataset/
 │
-├── Notebook/
-│
 ├── Images/
+│
+├── Notebook/
 │
 ├── README.md
 │
-└── LICENSE
+└── Requirment.txt
 ```
 
 ---
